@@ -47,3 +47,22 @@
 
 
 // console.log(count);
+
+//*******Search a Target in an Array***//
+
+
+let numbers = [10, 20, 30, 40, 50];
+let target = 30;
+
+let found = false;
+
+for(i = 0; i < numbers.length; i++){
+     if(numbers[i] === target){
+        found = true;
+        console.log("Number found in index", i)
+        break;         
+     }
+}
+if (found === false){
+    console.log("Number is not found");
+}
