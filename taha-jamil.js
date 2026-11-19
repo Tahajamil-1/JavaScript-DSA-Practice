@@ -97,14 +97,25 @@
 
 ///******Count Odd Numbers**/
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let count = 0;
+// let count = 0;
 
-for(i = 0; i < numbers.length; i++){
-      if(numbers[i] % 2 != 0){
-          count++
-      }
+// for(i = 0; i < numbers.length; i++){
+//       if(numbers[i] % 2 != 0){
+//           count++
+//       }
+// }
+
+// console.log(count)
+
+
+// *****Find Positive Numbers**/
+
+let numbers = [-5, 10, -2, 20, 0, 15, -8, 5];
+
+for(i = 0; i <= numbers.length; i++){
+   if(numbers[i] > 0){
+       console.log(numbers[i])
 }
-
-console.log(count)
+}
