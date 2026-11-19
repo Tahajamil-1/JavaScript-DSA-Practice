@@ -83,14 +83,28 @@
 //****Find Smallest Number in an Array**//
 
 
-let numbers = [25, 10, 45, 5, 30];
+// let numbers = [25, 10, 45, 5, 30];
 
-let Smallest = numbers[0];
+// let Smallest = numbers[0];
 
-for(i = 1; i < numbers.length; i++){
-    if(numbers[i] < Smallest){
-           Smallest = numbers[i]
-    }
+// for(i = 1; i < numbers.length; i++){
+//     if(numbers[i] < Smallest){
+//            Smallest = numbers[i]
+//     }
+// }
+
+// console.log(Smallest);
+
+///******Count Odd Numbers**/
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let count = 0;
+
+for(i = 0; i < numbers.length; i++){
+      if(numbers[i] % 2 != 0){
+          count++
+      }
 }
 
-console.log(Smallest)
+console.log(count)
