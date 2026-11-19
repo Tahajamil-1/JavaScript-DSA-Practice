@@ -69,12 +69,28 @@
 
 /*****Calculate the Sum of Array Elements*/
 
-let numbers = [10, 20, 30, 40, 50];
+// let numbers = [10, 20, 30, 40, 50];
 
-let sum = 0;
+// let sum = 0;
 
-for(i = 0; i < numbers.length; i++){
-    sum = sum + numbers[i];
+// for(i = 0; i < numbers.length; i++){
+//     sum = sum + numbers[i];
+// }
+
+// console.log("Total sum",sum);
+
+
+//****Find Smallest Number in an Array**//
+
+
+let numbers = [25, 10, 45, 5, 30];
+
+let Smallest = numbers[0];
+
+for(i = 1; i < numbers.length; i++){
+    if(numbers[i] < Smallest){
+           Smallest = numbers[i]
+    }
 }
 
-console.log("Total sum",sum);
+console.log(Smallest)
