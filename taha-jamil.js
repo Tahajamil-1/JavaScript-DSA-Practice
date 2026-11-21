@@ -112,10 +112,31 @@
 
 // *****Find Positive Numbers**/
 
-let numbers = [-5, 10, -2, 20, 0, 15, -8, 5];
+// let numbers = [-5, 10, -2, 20, 0, 15, -8, 5];
 
-for(i = 0; i <= numbers.length; i++){
-   if(numbers[i] > 0){
-       console.log(numbers[i])
+// for(i = 0; i <= numbers.length; i++){
+//    if(numbers[i] > 0){
+//        console.log(numbers[i])
+// }
+// }
+
+
+
+// Remove Duplicate Numbers
+
+
+let numbers = [10, 20, 10, 30, 20, 40];
+
+for(i = 0; i < numbers.length; i++){
+     if(numbers[0] < numbers[i]){
+          console.log(numbers[i])
+     }
 }
-}
+
+
+
+
+
+
+
+
